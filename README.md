@@ -28,33 +28,7 @@ commodity-ai/
 └── llm/           # Custom LLM development
 ```
 
-## Getting Started
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/commodity-ai.git
-   cd commodity-ai
-   ```
 
-2. Set up backend:
-   ```bash
-   cd backend
-   python -m venv venv
-   source venv/bin/activate  # Windows: .\venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-3. Set up frontend:
-   ```bash
-   cd ../frontend
-   npm install
-   npm start
-   ```
-
-4. Run ML training:
-   ```bash
-   cd ../ml
-   python train.py
-   ```
 
 ## Dataset
 - Source: [MITSUI Commodity Prediction Challenge](https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge)
